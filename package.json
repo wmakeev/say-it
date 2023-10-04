@@ -1,0 +1,43 @@
+{
+  "name": "@wmakeev/say-it",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Say any text input with Yandex SpeechKit",
+  "keywords": [
+    "yandex",
+    "speechkit",
+    "voice",
+    "text2voice"
+  ],
+  "exports": "./src/index.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "env:example": "npx sync-dotenv@2.6.2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "consistent",
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  },
+  "np": {
+    "yarn": false
+  },
+  "author": "Vitaliy V. Makeev",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/node": "^20.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "execa": "^8.0.1",
+    "undici": "^5.25.4"
+  }
+}
